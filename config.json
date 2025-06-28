@@ -1,0 +1,17 @@
+{
+  "cpu_threshold": 80,
+  "memory_threshold": 80,
+  "disk_threshold": 90,
+  "email": {
+    "send_alerts": true,
+    "smtp_server": "smtp.gmail.com",
+    "port": 587,
+    "sender": "your_email@gmail.com",
+    "receiver": "admin_email@gmail.com",
+    "password": "your_app_password"
+  },
+  "slack": {
+    "send_alerts": false,
+    "webhook_url": "https://hooks.slack.com/services/XXXX/XXXX/XXXX"
+  }
+}
